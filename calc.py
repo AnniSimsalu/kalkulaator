@@ -20,6 +20,8 @@ class cal():
         return self.a ** self.b
     def protsent(self):
         return self.a / self.b * 100
+    def
+        return
 
 a = int(input("Sisesta esimene number: "))
 b = int(input("Sisesta teine number: "))
@@ -27,7 +29,7 @@ b = int(input("Sisesta teine number: "))
 kalk = cal(a,b)
 while True:
     def menu():
-        x = ('1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Ruutjuure leidmine\n7. Astendamine\n8. Protsent')
+        x = ('1. Liitmine \n2. lahutamine\n3. korrutamine\n4. jagamine\n5. Jäägi leidmine\n6. Ruutjuure leidmine\n7. Astendamine\n8. Protsent\n9.')
         print(x)
     menu()
     valik = int(input('Sisesta üks valikutest: '))
@@ -55,7 +57,9 @@ while True:
     elif valik == 8:
         print("Vastus:",kalk.protsent())
         break
-    elif valik == 0:
+    elif valik == 9:
+        print("Vastus: ",kalk.)
+    else:
         print('Sisesta uuesti üks liitmise operaator')
         break
-#15:06
+#15:15
